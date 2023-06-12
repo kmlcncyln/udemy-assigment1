@@ -1,0 +1,27 @@
+.square {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .warning {
+    background-color: #ffd700;
+  }
+  
+  .fancy-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e60000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
